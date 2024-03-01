@@ -1,0 +1,47 @@
+/* Footer section start */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    font-family: Mulish;
+    text-align: center;
+    padding: 110px 284px;
+}
+
+.footer-header {
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+footer h1 {
+    margin: 0;
+}
+
+.name {
+    color: rgb(255, 84, 0);
+}
+
+footer p {
+    color: rgb(90, 90, 93);
+    padding: 0 40px 0 40px;
+    line-height: 28px;
+}
+
+.logos {
+    margin: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+hr {
+    border: 1px solid rgba(19, 19, 24, 0.1);
+}
+
+#copyright {
+    font-weight: 300;
+}
+
+/* Footer section end */
