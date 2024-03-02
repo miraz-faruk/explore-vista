@@ -1,7 +1,72 @@
+* {
+    margin: 0;
+}
+
+main {
+    font-family: Mulish;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+/* Choose Us section start */
+.choose-us-section-header {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.choose-us-section-header h1 {
+    padding-bottom: 24px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-us img {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 32px;
+}
+
+.choose-us p {
+    color: rgb(90, 90, 93);
+}
+
+.items {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+h3 {
+    margin-bottom: 16px;
+}
+
+.hotel,
+.map,
+.price {
+    border-radius: 16px;
+    padding: 32px 32px 55px 32px;
+}
+
+.hotel {
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.map {
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.price {
+    background: rgba(233, 68, 68, 0.05);
+    align-items: center;
+    margin-left: 298px;
+    margin-right: 298px;
+}
+
+/* Choose Us section end */
+
 /* Footer section start */
 footer {
     background: rgba(19, 19, 24, 0.05);
-    font-family: Mulish;
     text-align: center;
     padding: 110px 284px;
 }
