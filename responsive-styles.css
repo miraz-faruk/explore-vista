@@ -19,6 +19,11 @@
         padding-bottom: 16px;
     }
 
+    .choose-us,
+    .newsletter {
+        margin-bottom: 24px;
+    }
+
     /* Popular tours section */
     .popular-tours {
         flex-direction: column;
@@ -79,6 +84,51 @@
 
     .price {
         margin: 16px 0 0 0;
+    }
+
+    /* Newsletter section */
+    .newsletter {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .newsletter-input-field {
+        padding: 24px;
+    }
+
+    .newsletter p {
+        padding-bottom: 16px;
+    }
+
+    #name-input,
+    #email-input {
+        padding: 16px 174px 16px 20px;
+    }
+
+    #name-input {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    #email-input {
+        margin-bottom: 20px;
+    }
+
+    .newsletter button {
+        padding: 14px 119px;
+    }
+
+    .newsletter img {
+        width: 100%;
+    }
+
+    .discount-ad p {
+        top: 70%;
+        left: 24%;
+    }
+
+    #sale {
+        font-size: 21px;
     }
 
     /* Footer section */
