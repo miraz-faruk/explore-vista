@@ -1,4 +1,8 @@
 @media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+    }
+
     main {
         margin-left: 24px;
         margin-right: 24px;
@@ -37,5 +41,27 @@
 
     .popular-tours img {
         max-width: 100%;
+    }
+
+    /* Footer section */
+    footer {
+        padding: 32px 20px;
+    }
+
+    .footer-header {
+        font-size: 21px;
+        gap: 10px;
+    }
+
+    footer p {
+        padding: 16px 24px;
+    }
+
+    .logos{
+        padding-bottom: 24px;
+    }
+
+    #copyright {
+        padding: 25px 0 0 0;
     }
 }
