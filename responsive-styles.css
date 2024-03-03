@@ -1,0 +1,41 @@
+@media screen and (max-width: 600px) {
+    main {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    p,
+    li {
+        font-size: 14px;
+    }
+
+    /* Popular tours section */
+    .popular-tours {
+        flex-direction: column;
+        gap: 24px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .popular-tours h1 {
+        font-size: 20px;
+        padding-bottom: 16px;
+    }
+
+    ul {
+        padding-top: 16px;
+        padding-bottom: 4px;
+    }
+
+    li {
+        padding-bottom: 12px;
+    }
+
+    #popular-tours-desc {
+        padding-bottom: 24px;
+    }
+
+    .popular-tours img {
+        max-width: 100%;
+    }
+}
