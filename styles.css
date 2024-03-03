@@ -52,11 +52,53 @@ hr {
 .choose-us,
 .newsletter,
 .banner,
-.destination {
+.destination,
+.popular-tours {
     margin-bottom: 100px;
 }
 
 /* Header section start */
+/* navbar */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.navbar {
+    /* background-color: #333; */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
 .banner {
     position: relative;
     width: 100%;
@@ -323,6 +365,42 @@ li {
 }
 
 /* Newsletter section end */
+
+/* Visit country start */
+
+.third {
+    width: 70%;
+    margin: 130px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.third-body {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.third-title {
+    margin-bottom: 50px;
+}
+
+h5 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.plans img {
+    width: 93px;
+}
+
+.plans p {
+    color: gray;
+    font-size: 25px;
+}
+
+/* Visit country end */
 
 /* Footer section start */
 footer {
