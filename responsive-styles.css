@@ -13,17 +13,18 @@
         font-size: 14px;
     }
 
+    .popular-tours h1,
+    .choose-us-section-header h1 {
+        font-size: 20px;
+        padding-bottom: 16px;
+    }
+
     /* Popular tours section */
     .popular-tours {
         flex-direction: column;
         gap: 24px;
         justify-content: space-between;
         align-items: center;
-    }
-
-    .popular-tours h1 {
-        font-size: 20px;
-        padding-bottom: 16px;
     }
 
     ul {
@@ -43,6 +44,43 @@
         max-width: 100%;
     }
 
+    /* Choose Us section */
+    .choose-us-section-header {
+        padding-bottom: 16px;
+    }
+
+    .choose-us img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .items {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .hotel,
+    .map,
+    .price {
+        padding: 32px;
+    }
+
+    .hotel img,
+    .map img,
+    .price img {
+        padding-bottom: 16px;
+    }
+
+    .hotel h3,
+    .map h3,
+    .price h3 {
+        font-size: 20px
+    }
+
+    .price {
+        margin: 16px 0 0 0;
+    }
+
     /* Footer section */
     footer {
         padding: 32px 20px;
@@ -57,7 +95,7 @@
         padding: 16px 24px;
     }
 
-    .logos{
+    .logos {
         padding-bottom: 24px;
     }
 

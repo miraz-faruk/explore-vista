@@ -28,17 +28,18 @@ img {
     padding: 14px 34px;
 }
 
+.popular-tours h1,
+.choose-us-section-header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
 /* Popular tours start */
 .popular-tours {
     display: flex;
     justify-content: space-between;
     gap: 53px;
-}
-
-.popular-tours h1 {
-    font-size: 40px;
-    font-weight: 800;
-    padding-bottom: 24px;
 }
 
 ul {
@@ -57,49 +58,57 @@ li {
 /* Popular tours end */
 
 /* Choose Us section start */
-/* .choose-us-section-header {
+.choose-us-section-header {
     text-align: center;
     padding-bottom: 48px;
-}
-
-.choose-us-section-header h1 {
-    padding-bottom: 24px;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.choose-us img {
-    width: 65px;
-    height: 65px;
-    margin-bottom: 32px;
 }
 
 .items {
     display: flex;
     gap: 24px;
-    margin-bottom: 24px;
+}
+
+.choose-us img {
+    width: 64px;
+    height: 64px;
+    border-radius: 0;
 }
 
 .hotel,
 .map,
 .price {
     border-radius: 16px;
-    padding: 32px 32px 55px 32px;
+    padding: 24px 55px 24px 24px;
+}
+
+.hotel img,
+.map img,
+.price img {
+    padding-bottom: 32px;
+}
+
+.hotel h3,
+.map h3,
+.price h3 {
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 16px;
 }
 
 .hotel {
+    border: 1px solid rgba(251, 181, 99, 0.2);
     background: rgba(251, 181, 99, 0.05);
 }
 
 .map {
+    border: 1px solid rgba(41, 206, 246, 0.2);
     background: rgba(41, 206, 246, 0.05);
 }
 
 .price {
+    border: 1px solid rgba(233, 68, 68, 0.2);
     background: rgba(233, 68, 68, 0.05);
-    align-items: center;
-    margin-left: 298px;
-    margin-right: 298px;
+    margin: 24px 298px 0 298px;
 }
 
 /* Choose Us section end */
