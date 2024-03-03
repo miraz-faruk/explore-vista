@@ -14,20 +14,22 @@
     }
 
     .popular-tours h1,
-    .choose-us-section-header h1 {
+    .choose-us-section-header h1,
+    .destination-header h1 {
         font-size: 20px;
         padding-bottom: 16px;
     }
 
     .choose-us,
     .newsletter,
-    .banner {
+    .banner,
+    .destination {
         margin-bottom: 24px;
     }
 
     /* banner section */
 
-    .banner img{
+    .banner img {
         height: 483px;
     }
 
@@ -40,7 +42,7 @@
         margin-bottom: 10px;
     }
 
-    .banner-input{
+    .banner-input {
         flex-direction: column;
         gap: 12px;
         padding: 8px;
@@ -55,6 +57,27 @@
 
     .input-container button {
         padding: 16px 105px 16px 105px;
+    }
+
+    /* destination section */
+
+    .destination p {
+        margin: 0 10px 0 10px;
+    }
+
+    .destination {
+        gap: 16px;
+    }
+
+    .destination img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-1,
+    .gallery-2,
+    .gallery-3 {
+        grid-template-columns: 1fr;
     }
 
 
